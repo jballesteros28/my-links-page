@@ -4,8 +4,8 @@ def title(text: str) -> rx.Component:
     return rx.flex(
         rx.heading(
             text,
-            size="5",
-            style=styles.color_text
+            size="6",
+            style=styles.color_text_tittle
         ),
         
     )

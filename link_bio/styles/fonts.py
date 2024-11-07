@@ -8,3 +8,5 @@ class Font(Enum):
 class FontWeight(Enum):
     LIGHT="300"
     MEDIUM="500"
+    CLASIC="1.25em"
+    SUB_CLASIC="1em"

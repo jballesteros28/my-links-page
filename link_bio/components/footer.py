@@ -7,25 +7,14 @@ def footer() -> rx.Component:
     return rx.center(
         rx.vstack(
             rx.box(
-                rx.color_mode_cond(
-                    light=rx.image(
-                        src="/logo_light.jpg",
-                        width="70px",
-                        height="auto",
-                        weight="auto",
-                        margin_left="auto",
-                        margin_right= "auto",
-                        alt="logotipo de juandev. una \"eme\"entre llaves"
-                    ),
-                    dark=rx.image(
-                        src="/logo.jpg",
-                        width="70px",
-                        height="auto",
-                        weight="auto",
-                        margin_left="auto",
-                        margin_right= "auto",
-                        alt="logotipo de juandev. una \"eme\"entre llaves"
-                    ),
+                rx.image(
+                    src="/logo.svg",
+                    width="70px",
+                    height="auto",
+                    weight="auto",
+                    margin_left="auto",
+                    margin_right= "auto",
+                    alt="logotipo de juandev. una \"eme\"entre llaves"
                 ),
                 width="100%",
             ),

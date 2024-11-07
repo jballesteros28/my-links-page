@@ -8,7 +8,7 @@ import link_bio.views.links.constant as constant
 
 def links() -> rx.Component:
     return rx.vstack(
-        title("links de interes"),
+        title("Links de Interés"),
         link_button(
             "Linkedin",
             "Mi perfil profesional",
@@ -20,7 +20,7 @@ def links() -> rx.Component:
         ),
         link_button(
             "Github",
-            "Codigo completo de todos mis proyectos",
+            "Código completo de todos mis proyectos",
             rx.color_mode_cond(
                 light="icons/github_light.svg",
                 dark="icons/github.svg"
@@ -29,7 +29,7 @@ def links() -> rx.Component:
         ),
         link_button(
             "Portafolio",
-            "Podras ver una parte mas completa sobre mi y mis proyectos",
+            "Podrás ver más información sobre mis proyectos",
             rx.color_mode_cond(
                 light="icons/portafolio_light.svg",
                 dark="icons/portafolio.svg"
@@ -38,14 +38,14 @@ def links() -> rx.Component:
         ),
         link_button(
             "CV",
-            "Mi cv profesional actualizado",
+            " Mi CV profesional",
             rx.color_mode_cond(
                 light="icons/cv_light.svg",
                 dark="icons/cv.svg"
             ),
             constant.CV_URL
         ),
-        title("contacto"),
+        title("Contacto"),
         link_button(
             "Gmail",
             "juandavidballesterosbayona@gmail.com",

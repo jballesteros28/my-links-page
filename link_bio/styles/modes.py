@@ -17,9 +17,6 @@ def dark_mode_toggle() -> rx.Component:
                 cursor="pointer",
                 padding="0.5em",
                 border_radius= Size.DEFAULT.value,
-                _hover={
-                    "box_shadow": "0 4px 8px 0 rgba(0, 0, 0, 0.2)"
-                },
                 style=styles.background_button_style
                 
             )

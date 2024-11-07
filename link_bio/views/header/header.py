@@ -2,8 +2,8 @@ import reflex as rx
 from link_bio.components.link_icon import link_icon
 from link_bio.components.info_text import info_text
 import link_bio.styles.styles as styles
-from link_bio.styles.colors import Color
-from link_bio.styles.colors import TextColor
+from link_bio.styles.colors import Color, TextColor
+from link_bio.styles.fonts import FontWeight
 import link_bio.views.links.constant as constant
 
 def header() -> rx.Component:
@@ -13,11 +13,11 @@ def header() -> rx.Component:
                 rx.avatar(
                     src="/juan.jpg",
                     fallback="juan",
-                    size="8",
+                    size="7",
                     radius= "full",
                     padding="2px",
                     border=f"2px solid {Color.PRIMARY.value}",
-                    margin_top=styles.Size.LARGE.value,
+                    margin_top=styles.Size.BIG.value,
                     color_scheme="gray",
                     variant="soft",
                     width="100%"
@@ -26,8 +26,8 @@ def header() -> rx.Component:
             rx.vstack(
                 rx.heading(
                     "Juan Ballesteros", 
-                    size="7",
-                    style=styles.color_text
+                    size="8",
+                    style=styles.color_text_tittle
                 ),
                 rx.hstack(
                     link_icon(
@@ -59,14 +59,15 @@ def header() -> rx.Component:
                 padding_top="40px",
                 spacing="0"
             ),
-            spacing=styles.Size.BIG.value
+            spacing=styles.Size.MEDIUM.value
         ),
         rx.flex(
             info_text("+1","año de experiencia")  
         ),
-        rx.text("Soy estudiante de ingenieria de sistemas y actualmente estoy disponible como back-end y front-end developer. aqui podras encontrar todos mis enlaces de interes ¡Bienbenid@!",
+        rx.text("Soy estudiante de Ingeniería de Sistemas y actualmente estoy disponible como back-end y front-end developer. Aquí podrás encontrar todos mis enlaces de interés ¡Bienbenid@!",
                 width="100%",
-                style=styles.color_text
+                style=styles.color_text_body,
+                font_size=FontWeight.CLASIC.value
         ),
         align_items="start",
         width="100%",

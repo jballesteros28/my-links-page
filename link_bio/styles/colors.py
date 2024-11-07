@@ -4,7 +4,7 @@ class Color(Enum):
     PRIMARY="#00ff2b"
     SECONDARY= "#009a22"
     BACKGROUND="#0C151D"
-    BACKGROUND_LIGHT="#ecf0f1"
+    BACKGROUND_LIGHT="#e8e8e8"
     CONTENT="#171F26"
     CONTENT_LIGHT="#82e0aa"
     
