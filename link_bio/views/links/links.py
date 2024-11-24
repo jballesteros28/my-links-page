@@ -34,7 +34,7 @@ def links() -> rx.Component:
                 light="icons/portafolio_light.svg",
                 dark="icons/portafolio.svg"
             ),
-            constant.FACEBOOK_URL
+            constant.PORTAFOLIO_URL
         ),
         link_button(
             "CV",
