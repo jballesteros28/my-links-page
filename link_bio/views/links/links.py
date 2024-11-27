@@ -53,7 +53,7 @@ def links() -> rx.Component:
                 light="icons/mail_light.svg",
                 dark="icons/mail.svg"
             ),
-            constant.EMAIL_URL
+            f"mailto:{constant.EMAIL_URL}",
         ),
         width="100%",
         spacing=styles.Size.MEDIUM.value
