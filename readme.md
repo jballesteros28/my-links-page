@@ -14,4 +14,4 @@ this is my personal links website, configurable in terms of graphics and content
 preview:
 
 
-<img src="https://github.com/user-attachments/assets/50b59b16-0934-4ec2-a9aa-8d588d1a8940" width="400" height="200">    <img src="https://github.com/user-attachments/assets/cc644528-3478-415c-a253-83786703962c" width="400" height="200">
+<img src="assets/preview.png" width="400" height="200">    <img src="assets/preview_2.png" width="400" height="200">
