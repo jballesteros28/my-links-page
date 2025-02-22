@@ -56,5 +56,5 @@ def links() -> rx.Component:
             f"mailto:{constant.EMAIL_URL}",
         ),
         width="100%",
-        spacing=styles.Size.MEDIUM.value
+        spacing= "3"
     )

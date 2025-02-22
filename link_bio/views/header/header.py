@@ -59,7 +59,7 @@ def header() -> rx.Component:
                 padding_top="40px",
                 spacing="0"
             ),
-            spacing=styles.Size.MEDIUM.value
+            spacing= "3"
         ),
         rx.flex(
             info_text("+1","año de experiencia")  
@@ -71,6 +71,6 @@ def header() -> rx.Component:
         ),
         align_items="start",
         width="100%",
-        spacing=styles.Size.BIG.value,
+        spacing="5",
         color= TextColor.HEADER.value,
     )

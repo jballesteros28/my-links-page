@@ -1,4 +1,1 @@
-dill==0.3.8
-unzip==1.0.0
-watchdog==4.0.2
-watchfiles==0.24.0
+reflex==0.7.0
