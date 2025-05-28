@@ -1,4 +1,4 @@
-PORTAFOLIO_URL="https://portafolio-red-sun.reflex.run/"
+PORTAFOLIO_URL="https://portafolio-livid-eta-69.vercel.app/"
 LINKEDIN_URL="https://www.linkedin.com/in/juan-david-ballesteros-413350260"
 GITHUB_URL="https://github.com/jballesteros28?tab=repositories"
 INSTAGRAM_URL="https://www.instagram.com/j_ballesteros28"

@@ -62,7 +62,7 @@ def header() -> rx.Component:
             spacing= "3"
         ),
         rx.flex(
-            info_text("+1","año de experiencia")  
+            info_text("+3","años de experiencia")  
         ),
         rx.text("Soy estudiante de Ingeniería de Sistemas y actualmente estoy disponible como back-end y front-end developer. Aquí podrás encontrar todos mis enlaces de interés ¡Bienbenid@!",
                 width="100%",

@@ -1,9 +1,9 @@
 source .venv\script\activate
-pip install --upgrade pip
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 reflex init
 reflex export --frontend-only
 rm -rf public
-unzip frontend.zip -d public
+unzip frontend.zip -d frontend
 rm -f frontend.zip
 deactivate
